@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 4px 3px 2px rgba(0,0,0,0.32);
+  font-family: "Work Sans", sans-serif;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 95%;
+  margin: 0 auto;
+  padding: 4em;
+}
+
+/* Section */
+.top,
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+/* Each part */
+
+.time {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.quote {
+  font-size: 0.75rem;
+  width: 50%;
+  text-align: end;
+  padding-right: 0;
+}
+
+.crypto {
+  align-items: center;
+  gap: 1em;
+}
+
+.crypto > p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 0.75
+  rem;
+}
